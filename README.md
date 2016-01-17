@@ -1,6 +1,6 @@
 # go-otpserver
 
-A golang version OTP server.  
+A golang version of simple OTP server.  
 
 > Reference: [Google Authenticator](https://github.com/google/google-authenticator)
 
@@ -14,8 +14,8 @@ A golang version OTP server.
 
 ```json
 {
-    "issuer":"MyCompany",
-    "accountName":"skyjia@me.com",
+    "issuer":"My Company",
+    "accountName":"foo@bar.com",
     "secret":"WgQacDUV24W4myXP"
 }
 ```
@@ -24,7 +24,7 @@ A golang version OTP server.
 
 ```json
 {
-  "authURL": "otpauth://totp/MyCompany:skyjia@me.com?secret=K5TVCYLDIRKVMMRUK42G26KYKA&issuer=MyCompany"
+  "authURL": "otpauth://totp/My%20Company:foo@bar.com?issuer=My+Company&secret=K5TVCYLDIRKVMMRUK42G26KYKA"
 }
 ```
 
