@@ -28,6 +28,8 @@ A golang version OTP server.
 }
 ```
 
+![](url_qrcode.jpg)
+
 
 ### Verify TOTP Token
 
