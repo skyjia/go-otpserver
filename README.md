@@ -24,7 +24,7 @@ A golang version OTP server.
 
 ```json
 {
-  "authRUL": "otpauth://totp/MyCompany:skyjia@me.com?secret=K5TVCYLDIRKVMMRUK42G26KYKA&issuer=MyCompany"
+  "authURL": "otpauth://totp/MyCompany:skyjia@me.com?secret=K5TVCYLDIRKVMMRUK42G26KYKA&issuer=MyCompany"
 }
 ```
 

@@ -55,5 +55,5 @@ func generateTOTPAuthURLHandler(w rest.ResponseWriter, req *rest.Request) {
 	}
 
 	authURL := GenerateTOTPAuthURL(body.Issuer, body.AccountName, body.Secret)
-	w.WriteJson(map[string]interface{}{"authRUL": authURL})
+	w.WriteJson(map[string]interface{}{"authURL": authURL})
 }
