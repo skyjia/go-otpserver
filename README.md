@@ -28,6 +28,8 @@ A golang version OTP server.
 }
 ```
 
+Scan the QRCode below with Google Authenticator:
+
 ![](url_qrcode.jpg)
 
 
