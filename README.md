@@ -1,6 +1,8 @@
 # go-otpserver
 
-A golang version OTP server
+A golang version OTP server.  
+
+> Reference: [Google Authenticator](https://github.com/google/google-authenticator)
 
 ## API
 
