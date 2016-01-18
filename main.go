@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./otpserver"
+	"github.com/skyjia/go-otpserver/otpserver"
 )
 
 func main() {
