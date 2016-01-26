@@ -2,7 +2,7 @@ package otpserver
 
 import (
 	"fmt"
-	"github.com/ant0ine/go-json-rest/rest"
+	"github.com/skyjia/go-otpserver/Godeps/_workspace/src/github.com/ant0ine/go-json-rest/rest"
 	"log"
 	"net/http"
 )

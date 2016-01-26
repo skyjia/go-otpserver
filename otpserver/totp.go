@@ -1,8 +1,8 @@
 package otpserver
 
 import (
-	"github.com/ant0ine/go-json-rest/rest"
-	otp "github.com/hgfischer/go-otp"
+	"github.com/skyjia/go-otpserver/Godeps/_workspace/src/github.com/ant0ine/go-json-rest/rest"
+	otp "github.com/skyjia/go-otpserver/Godeps/_workspace/src/github.com/hgfischer/go-otp"
 	"net/http"
 )
 
