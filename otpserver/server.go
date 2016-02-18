@@ -16,7 +16,7 @@ type ServerConfig struct {
 var (
 	// DefaultConfig is the default server config.
 	DefaultConfig = ServerConfig{
-		Host: "localhost",
+		Host: "0.0.0.0",
 		Port: 8080,
 	}
 )
